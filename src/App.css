@@ -1,0 +1,136 @@
+/*General*/
+.app{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.app__header{
+  overflow: hidden;
+}
+.app__header img{
+  max-width: 30%;
+  height: auto;
+}
+.app__footer,.app__header,.Navegador{
+  background-color: #61dafb;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align:center;
+}
+
+.app__header{
+  padding: 10px;
+}
+
+.app__footer{
+  padding: 1px;
+}
+.app__main {
+  text-align:center;
+  background-color: transparent;
+  background-size: cover;
+  background-image: url("./Images/Fondo_login.jpg");
+}
+
+/*Login*/
+.LogIn{
+  display: block;
+  flex-direction: colum;
+
+}
+.LogIn__labels{
+  margin-bottom: 0.5;
+  font-weight: bold;
+}
+.LogIn__in, .LogIn__Entrar{
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 1px solid ;
+  border-radius: 5px;
+}
+.LogIn__Entrar {
+  background: #61dafb;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+.LogIn__Entrar:hover{
+  background: #30a6c7;
+  margin: 1em;
+}
+
+.Navegador{
+  padding: 1px;
+}
+/*Descripción*/
+.Descripcion p{
+  font-weight: bold;
+}
+/*Menú*/
+.menu, .menu__Opciones{
+  vertical-align: text-top;
+}
+.menu__Opciones button, .Menu__Head td, .menu__Comidas td, .menu__Objetivos{
+  align-self: center;
+  background-color: #a1d3db;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.menu__Opciones button{
+  cursor: pointer;
+  width: 20vw;
+}
+.menu__Opciones button:hover{
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+.menu__Opciones button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+.Menu__Head td{
+  width: 2ovw
+  
+}
+.menu__Comidas, .menu__Comidas p{
+  width: 50vw
+}
+.menu__Comidas p{
+  text-align: center;
+}
+.menu__Comidas h3{
+  text-align: left;
+}
+.menu__Objetivos{
+  width: 20vw;
+}
+
+.menu__Underconstruction{
+    max-width: 60%;
+    height: auto;
+}
